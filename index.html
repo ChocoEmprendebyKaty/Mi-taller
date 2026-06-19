@@ -311,6 +311,22 @@
     }
     .benefit p { color: var(--cream-mid); font-size: 0.88rem; opacity: 0.85; }
 
+    /* ── PROYECTOS ── */
+    #proyectos { background: var(--white); }
+    .proyecto-estado {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.8rem;
+      border-radius: 999px;
+      margin-bottom: 0.5rem;
+    }
+    .estado-activo   { background: #EAF7EE; color: #2E7D4F; }
+    .estado-proximo  { background: #FEF3E2; color: #9A6000; }
+    .estado-idea     { background: #F0EEFF; color: #5B4AB0; }
+
     /* ── CTA CONTACT ── */
     #contacto { background: var(--cream-mid); text-align: center; }
     #contacto .section-inner { max-width: 680px; }
@@ -359,6 +375,7 @@
       <li><a href="#sobre-mi">Sobre mí</a></li>
       <li><a href="#lo-que-ofrezco">Ofrezco</a></li>
       <li><a href="#ingresos">Ingresos</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
@@ -489,6 +506,52 @@
           <h4>Producto + conocimiento</h4>
           <p>Vendés tus bombones Y tus eBooks: dos fuentes de ingreso desde el mismo emprendimiento.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <div class="section-inner">
+      <span class="section-tag">Proyectos</span>
+      <h2 class="section-title">En lo que estoy<br>trabajando</h2>
+      <div class="gold-divider"></div>
+      <p class="section-desc">
+        Acá vas a ver mis proyectos: los que ya están en marcha, los que vienen pronto y los que todavía son una idea tomando forma.
+      </p>
+
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-icon">✏️</div>
+          <span class="proyecto-estado estado-activo">En curso</span>
+          <h3>Nombre del proyecto 1</h3>
+          <p>
+            Descripción breve del proyecto. Contá de qué se trata, a quién está dirigido y qué problema resuelve o qué valor aporta.
+          </p>
+          <a class="card-link" href="#">Ver más →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <span class="proyecto-estado estado-proximo">Próximamente</span>
+          <h3>Nombre del proyecto 2</h3>
+          <p>
+            Descripción breve del proyecto. Contá de qué se trata, a quién está dirigido y qué problema resuelve o qué valor aporta.
+          </p>
+          <a class="card-link" href="#">Anotarme →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💡</div>
+          <span class="proyecto-estado estado-idea">Idea en desarrollo</span>
+          <h3>Nombre del proyecto 3</h3>
+          <p>
+            Descripción breve del proyecto. Contá de qué se trata, a quién está dirigido y qué problema resuelve o qué valor aporta.
+          </p>
+          <a class="card-link" href="#">Saber más →</a>
+        </div>
+
       </div>
     </div>
   </section>
